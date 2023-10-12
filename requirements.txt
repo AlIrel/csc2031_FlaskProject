@@ -1,1 +1,4 @@
 Flask
+WTForms
+Flask-WTF
+email_validator
