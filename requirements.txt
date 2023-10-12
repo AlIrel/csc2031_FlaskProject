@@ -2,3 +2,4 @@ Flask
 WTForms
 Flask-WTF
 email_validator
+python-dotenv
