@@ -4,6 +4,7 @@ from datetime import datetime
 
 class User(db.Model):
     __tablename__ = 'users'
+    posts = db.relationship('Post')
 
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(100), nullable=False, unique=True)
